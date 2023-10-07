@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+     height: 100vh;
+     background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.calculos {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     height: 200px;
+     width: 550px;
+     background: transparent;
+     border-radius: 5px;
+     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.numeros {
+     font-weight: bolder;
+     font-size: 40px;
+     display: flex;
+     align-items: center;
+}
+
+.numeros span {
+     padding: 10px;
+}
+
+#valor {
+     height: 40px;
+     width: 80px;
+     font-size: 14pt;
+     margin: 0 10px 0 10px;
+}
+
+
